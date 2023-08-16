@@ -42,7 +42,7 @@ int main()
         {
             printf("Correct Answer\n");
             point1 = 5;
-            printf("You have scored %d point\n,point1");
+            printf("You have scored %d point\n",point1);
         }
         else
         {
@@ -76,12 +76,57 @@ int main()
         printf("(3)Elk Cloner\n");
         printf("(4)SCA Virus\n");
         printf("Enter your answer:");
-        scanf("%d",&ans3);
+        scanf("%d", &ans3);
 
-        if(ans3==2){
+        if (ans3 == 2)
+        {
             printf("Correct Answer\n");
             point3 = 5;
-            printf("You have scored %d point\n ",point3);
+            printf("You have scored %d point\n", point3);
         }
+        else
+        {
+            printf("Wrong Answer\n");
+            point03 = 0;
+            printf("You have scored %d point\n", point03);
+        }
+        printf("(4) Firewall in computer is used for?\n\n");
+        printf("(1)Security\n");
+        printf("(2)Data Transmission\n");
+        printf("(3)Monitoring\n");
+        printf("(4)Authentication\n");
+
+        printf("Enter Your Answer : ");
+        scanf("%d ", &ans4);
+
+        if(ans4==1){
+            printf("Correct Answer\n");
+            point4=5;
+            printf("You have scored %d point\n" ,point4);
+        }
+        else{
+            printf("Wrong Answer\n");
+            point04 = 0;
+            printf("You have scored %d point\n" , point04);
+        }
+        printf("(5)Which of the following is not a database management software?\n\n");
+        printf("(1)Mysql\n");
+        printf("(2)Oracle\n");
+        printf("(3)Cobal\n");
+        printf("(4)Sybase\n");
+        printf("Enter your answer :");
+        scanf("%d" , &ans5);
+         if(ans5 ==3){
+            printf("Correcr Answer\n");
+            point5=5;
+            printf("You have scored %d\n" ,point5 );
+         }
+         else{
+            printf("Wrong Answer\n");
+            point05= 0;
+            printf("You have scored %d point\n" , point05);
+         }
+         return 0;
+
     }
 }
