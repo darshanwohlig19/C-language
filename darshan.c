@@ -83,6 +83,5 @@ int main()
             point3 = 5;
             printf("You have scored %d point\n ",point3);
         }
-hello
     }
 }
